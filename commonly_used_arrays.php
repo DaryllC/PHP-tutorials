@@ -35,4 +35,9 @@ $name2 = array(5 => "Zac", 4 =>"Alfred", 7=>"Avi");
 $newArray2 = array_merge($name1, $name2);
 print_r($newArray2);
 
-
+//if two or more array elements have the same string keys, the last one overrides the earlier ones
+$strkey1 = array('A' =>12, 'B'=>5, 'C' =>8);
+$strkey2 = array('A' =>15, 'D'=>10);
+$newArray3 = array_merge($strkey1, $strkey2); 
+echo '<br>';
+print_r($newArray3); //'A' => 12 is replaced by 'A' => 15
