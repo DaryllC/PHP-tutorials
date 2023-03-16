@@ -9,6 +9,12 @@
 </head>
 <body>
     <?php
+    /*
+    When PHP sees this statement, it goes to heading.html , “copies”
+    the code inside, and “pastes” it into includedemo.php for us
+    automatically. This saves us the trouble of having to copy and paste
+    the code ourselves.
+    */
     include 'heading.html';
 
         #additionally,if heading.html stored in another folder

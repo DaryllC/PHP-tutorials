@@ -1,4 +1,12 @@
 <?php
+    /*
+    To use the header() function, we need to pass the word “Location”,
+    followed by a colon and the redirect URL to the function. Using a
+    function is also known as calling the function.
+    To call the header() function, add the following code to the start of
+    includedemo.php (before the <!DOCTYPE html> tag):
+     */
+
     header('Location: https://google.com');
 
 
