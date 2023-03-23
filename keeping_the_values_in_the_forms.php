@@ -38,15 +38,15 @@ echo $_POST['studentName'];
         if(isset($_POST['subj']) && in_array('PG', $_POST['subj']))
                 echo "checked";
 ?>> Programming 
-<input type ="radio" name = "Gender" value = "M"
+<input type ="radio" name = "Gender[]" value = "M"
 <?php
         if(isset($_POST['Gender']) && in_array('M', $_POST['Gender']))
-                echo 'checked';
+                echo "checked";
 ?>> Male
-<input type ="radio" name = "Gender" value = "F"
+<input type ="radio" name = "Gender[]" value = "F"
 <?php
         if(isset($_POST['Gender']) && in_array('F', $_POST['Gender']))
-                echo 'checked';
+                echo "checked";
 ?>
 > Female
 <br><br>
