@@ -14,6 +14,7 @@ var_dump(array_search('B', $assocArrayDemo)); //we get false as 'B' is a key in 
 
 //in_array()- similar to the array_search() function.
 // However, instead of returning the key or index, it returns true if the stated value is found in the array
+/*****************************************************************/ 
 echo '<br>';
 var_dump(in_array(5, $indexArrayDemo));
 echo '<br>';
