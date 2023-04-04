@@ -14,8 +14,8 @@ We can use PHP to prefill the textbox with user-entered data.
 To do that.-->
 <input type ="text" name = "studentName"
  value ="<?php
-if(isset($_POST['studentName']))
-echo $_POST['studentName'];
+if(isset($_GET['studentName']))
+echo $_GET['studentName'];
 ?>">
 
 
@@ -50,13 +50,13 @@ echo $_POST['studentName'];
 ?>
 > Female
 <br><br>
-<input type = "submit" name = "sm" value = "Submit Form">
+<input type = "submit" name = "submit_button" value = "Submit Form">
 <?php
 
 # The POST method is similar to the get method, except that form data is not appended to the URL. This makes the post method suitable
 # for sending sensitive information to the server, as information wil not be visible to the URL
  echo"<br>"; 
-if(isset($_POST['sm']))
+if(isset($_POST['submit_button']))
         print_r($_POST);
 ?>
 

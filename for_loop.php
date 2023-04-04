@@ -9,6 +9,8 @@ for (initial value; test condition; modification to value) {
 }
 
 */
+
+
 for($i = 1; $i < 5; $i++) {
     echo 'The value of i (post increment): '.$i.'<br>';
 } # when i = 5 < 5 returns false, the iteration will end

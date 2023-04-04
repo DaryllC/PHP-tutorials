@@ -11,8 +11,8 @@ Suppose, we have two variables $a and $b as shown below:
 $a = 5;
 $b = NULL;
 
-var_dump(isset($a));
+var_dump(isset($a)); # 5
 echo "<br>";
-var_dump(isset($b));
+var_dump(isset($b)); # false
 echo "<br>";
-var_dump(isset($c));
+var_dump(isset($c)); # false

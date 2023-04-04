@@ -6,15 +6,15 @@
     $x += $y;   # $x = $x + $y;
     echo $x." ==>This is addition";
     echo "<br/>";
-    $x -= $y; # $x = $x
+    $x -= $y; # $x = $x - $y
     echo $x." ==>This is subtraction";
-    echo "<br/>";
+    echo "<br/>"; # $x = $x + $y
     $x *= $y;
     echo $x." ==>This is Multiplication";
     echo "<br/>";
-    $x /= $y;
+    $x /= $y; # $x = $x / $y
     echo $x." ==>This is Division";
     echo "<br/>";
-    $x %= $y;
+    $x %= $y; # $x = $x % $y
     echo $x." ==>This is modulus";
     echo "<br/>";

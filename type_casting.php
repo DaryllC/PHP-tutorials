@@ -6,4 +6,4 @@ $p = (int)4.6;
 
 
 # We use the var_dump() function to display the data type and value of $p
-var_dump($p);
+var_dump($p); 

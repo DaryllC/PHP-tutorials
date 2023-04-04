@@ -8,6 +8,9 @@
     echo $msg.$emptyString.$greetings;
     echo "<br/>";
     echo $contact;
+    echo "<br/>";
+
+    echo ' she said. "This is my dog\'s house" '; # Multi- String
 
 
 

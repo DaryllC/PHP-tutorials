@@ -14,7 +14,7 @@
     # and the expiry date in UNIX timestamp format. 
 
     setcookie('userName', 'joy', time() + 120); #for the first cookie, (userName), its value and expiry date are 'joy' and time() + 120 respectively. 
-    # time() is a built in function that gives us the current UNIX timestamp; time() + 120 means the cookie will expire 120 seconds
+    # time() is a built in function that gives us the current UNIX timestamp; time() + 120 means the cookie will expire 120 seconds.
 
 
 

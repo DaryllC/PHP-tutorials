@@ -26,7 +26,7 @@
 <!-----get and $_GET------->
 <!------- Here, we use the isset() function to check if $_GET['sm'] is set.
 Before we click on the “Submit Form” button (named “sm”),
-$_GET['sm'] is considered to be unset. ------------>
+$_GET['sm'] is considered to be unset. ----------->
 
 
 </body>

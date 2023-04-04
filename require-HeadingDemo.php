@@ -9,9 +9,10 @@
             include , on the other hand, will only produce a warning without
             stopping the script
             */
-            #require -it produces a fatal error and stops the script if PHP fails to find the file required.
+            #require -it produces a fatal error and stops the script if PHP fails to find the file required. 
             require 'heading.html';
         ?>
+     
 
     </body>
 </html>

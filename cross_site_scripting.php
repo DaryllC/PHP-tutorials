@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 
 <!---PHP Cross site scripting-->
+
 <html>
 <head>
 <title>Cross_site_scripting </title>
 </head>
+<?php
+/*
+Cross site scripting occurs when a user enters undesirable scripting code into our PHP form and submits the code.
+ If our site then stores this code (for instance, in a database) and displays it to another user, the malicious code will be 
+ executed in the other user's browser
+
+
+*/
+?>
 <body>
 
 <form action = "" method ="post"></i>Enter Name<br>
@@ -13,8 +23,8 @@
  value ="Name: " 
  <?php
 
-//if(isset($_POST['studentName']))
-//echo $_POST['studentName'];
+if(isset($_POST['studentName']))
+echo $_POST['studentName'];
 ?>>
 
 
@@ -74,7 +84,7 @@ if(isset($_POST['studentName']))
 */
 ?>
 </form>
-<script>alert('Crossed!!!'); </script>
+
 
 </body>
 

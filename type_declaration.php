@@ -11,6 +11,22 @@ function addTwoNumbers($a, $b): int {
     return  $a + $b;
 }
 echo '<br>'.addTwoNumbers(15, 89);
+
+echo '<br>';
+echo '<br>';
+function subtractTwoNumbers( int $x, int $y) {
+    return $x - $y;
+}
+
+echo '<br>'.subtractTwoNumbers(40, 24);
+
+echo '<br>';
+echo '<br>';
+
+function multiplyTwoNumbers($i, $j):float {
+    return $i * $j;
+}
+echo '<br>'.multiplyTwoNumbers(45.15, 6.69);
 /*
 If you run the code above, you’ll get 4 as the output. Next, change
 the last line to

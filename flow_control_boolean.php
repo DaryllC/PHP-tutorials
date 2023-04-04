@@ -8,7 +8,7 @@ Values that convert to false include:
 quotes with no text enclosed)
 - the string "0"
 - an array with zero elements, and
-- a special value called NULL .
+- a special value called NULL.
 */
 
 if("hello") { # this is because the string "hello" is converted to true. For any control structure as long as condition evaluates to true

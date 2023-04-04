@@ -21,14 +21,14 @@
 <input type ="radio" name = "Gender" value = "M"> Male
 <input type ="radio" name = "Gender" value = "F"> Female
 <br><br>
-<input type = "submit" name = "sm" value = "Submit Form">
+<input type = "submit" name = "submit_Button" value = "Submit Form">
 
 <!-----get and $_GET------->
 <!------- Here, we use the isset() function to check if $_GET['sm'] is set.
 Before we click on the “Submit Form” button (named “sm”),
 $_GET['sm'] is considered to be unset. ------------>
 <?php
-    if(isset($_GET['sm']))
+    if(isset($_GET['submit_Button']))
         print_r($_GET);
 ?>
 <!--when the if blocks (GET method executes, the url will change and the query string will present at url bar)---->

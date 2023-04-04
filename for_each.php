@@ -1,5 +1,6 @@
 <?php
 /*
+
 Next, we have the foreach loop. This loop is similar to the for loop
 but is used to loop over arrays. There are two syntaxes:
 

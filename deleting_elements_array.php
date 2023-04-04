@@ -11,7 +11,7 @@ $awardWinners = array(
     "Bronze" => "Dora",
     "Wood" => "Swiper"
 );
-array_splice($awardWinners,1);
+array_splice($awardWinners,-3); # we want array_splice() to remove all elements from $awardWinners, starting from(including) position index[1]
 //remove all elements from awardWinners starting from(and including) position index[1]
 print_r($awardWinners); //Array ( [Gold] => Max )
 

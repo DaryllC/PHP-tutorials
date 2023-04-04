@@ -10,6 +10,7 @@
             more than once accidentally (for instance, when the script is so long
             you have lost track of whether you have included the file previously).
             */
+            
             include_once 'heading.html';
            
             #require_once 'heading.html';

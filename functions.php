@@ -61,7 +61,7 @@ arguments when calling the function.
 ######################################################################################
 function addNumbers($num1, $num2, $num3) {
     return $num1 + $num2 + $num3;
-    echo 'Hellooo'; #This will not display, once a return statement is executed. the function exits, and any statements after the return statement is not executed
+    echo 'HELLO'; #This will not display, once a return statement is executed. the function exits, and any statements after the return statement is not executed
 }
 echo 'The sum of addNumbers() is '.addNumbers(6, 6, 6);
 echo '<br>';

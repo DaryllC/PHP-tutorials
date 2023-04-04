@@ -15,8 +15,8 @@ echo filter_var($_num, FILTER_SANITIZE_NUMBER_INT);
  to the function, it returns the email address. Else, it returns false*/
  echo "<br>";
 
- $email ='abc@gmail';
- var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
+ $email ='abc123@gmail';
+ var_dump(filter_var($email, FILTER_VALIDATE_EMAIL)); # It will return false since '.com' is missing!
 
  # as "abc@gmail" is not valid email address(.com is missing)
 

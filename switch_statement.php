@@ -23,4 +23,5 @@ switch($b) {
         break; // end of block 
     default:
         echo 'None of the above<br>';
+       
 }

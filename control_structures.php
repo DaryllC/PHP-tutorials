@@ -1,6 +1,7 @@
 <?php
 /*******Comparison Operators ********************/
 /*
+
 -Equal(==)- Returns true if the values on both sides are equal 
 e.g. 5 == 5, 'Hello' == 'Hello', and 5 == 5.0 all return true
 
@@ -22,10 +23,11 @@ e.g. 9 < 12 returns true
 -Less than or equal to(<=)
 e.g. 10 <= 14 and 13 <= 13 both return true
 
+*******************************************************************************************************
 -Spaceship(<=>) - Returns 0 if the values on both sides are equal (not necessarily identical)
 Returns 1 if the value on the left is greater
 Returns -1 if the value on the left is smaller
-
+*******************************************************************************************************
 e.g. 5 <=> 7 returns -1 while 5 <=> 5.0 returns 0
  */
 

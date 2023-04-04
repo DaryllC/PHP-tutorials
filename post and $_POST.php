@@ -8,7 +8,7 @@
 <body>
 <form action = "" method ="post"></i>Enter Name<br>
 <!--- The action attributes specifies the file that we want to use to assign the path of the file to the action attribute -->
-<!--We assign an empty string to it. This means that we want to use the current file e.g. form.php to process the form--->
+<!--We assign an empty string to it. This means that we want to use the current file e.g. form.php to process the form --->
 
 <input type ="text" name = "studentName" value ="Name: ">
 

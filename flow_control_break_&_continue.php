@@ -22,7 +22,7 @@ for($i = 0; $i < 6; ++$i){
     echo "i = ".$i.' ,';
 
     if($i == 4) 
-        continue;
+        continue; # continue statement caused the program to skip the statements
         echo 'first.';
         echo 'Second<br>';
     

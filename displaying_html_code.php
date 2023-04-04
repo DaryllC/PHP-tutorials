@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Displaying html with php code</title>
 </head>
+<?php
+/*
+This technique is easy to use and works well with simple html code. However, it can get cumbersome if we have more complicated
+HTML code to output, especially if the code uses lots of single and double quotation marks. For instance, if we want to output
+the following HTML code.
+*/
+?>
 <body>
     <p>This is php with echo statement</p>
 <?php

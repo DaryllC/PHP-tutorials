@@ -11,7 +11,7 @@ this information is stored in the $_SESSION superglobal
     $_SESSION['myFavDrink'] = 'Cola';
     $_SESSION['myFavColor'] = 'Orange';
 
-    # updating a session variable 
+    # updating a session variable
     $_SESSION['myFavDrink'] = 'Beer';
 
 

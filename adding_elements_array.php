@@ -1,4 +1,9 @@
 <?php
+/*
+ We can add new elements to it. There are a few ways to do it. The easiest is to use the square bracket notation.
+ This notation allows us to add one element at a time to an array.
+*/
+
 $addElements = array(1, 4, 5, 6);
 $addElements[]= 7;
 

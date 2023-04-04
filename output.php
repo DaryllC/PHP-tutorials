@@ -6,5 +6,5 @@ echo "\nABCD","EFGH <br>";
 echo "ABCD"."EFGH";
 echo "<br>";
 
-//print statements
+//print statements 
 print "My name is daryll";
